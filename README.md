@@ -1,2 +1,1 @@
-# configtest
-Configuracion para configserver
+Config files
