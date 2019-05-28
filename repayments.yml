@@ -1,8 +1,8 @@
 repayment:
-  host: http://repayments:8080
+  host: http://repayments:8085
   
 server:
-  port: 8085
+  port: 8080
     
 spring:
   cloud:
