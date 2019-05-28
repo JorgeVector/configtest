@@ -1,5 +1,5 @@
 repayment:
-  host: http://repayments:8085
+  host: http://repayments:8084
   
 server:
   port: 8080
