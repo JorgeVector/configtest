@@ -1,0 +1,24 @@
+repayment:
+  host: http://repayments:8080
+  
+server:
+  port: 8084
+    
+spring:
+  cloud:
+    stream:
+      bindings:
+        output:
+          destination: queue.orders.events
+          binder: local_rabbit
+      binders:
+        local_rabbit:
+          type: rabbit
+          environment:
+            spring:
+              rabbitmq:
+                host: localhost
+                port: 5672
+                username: guest
+                password: guest
+                virtual-host: /
