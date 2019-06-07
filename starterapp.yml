@@ -1,0 +1,13 @@
+spring: 
+  application:
+    name: '@pom.artifactId@' 
+  jpa:
+    database: POSTGRESQL
+    show-sql: true
+    hibernate.ddl-auto: update
+  datasource:
+    platform: postgres
+    url: jdbc:postgresql://postgresDK:5432/test
+    username: postgres
+    password: docker    
+    driverClassName: org.postgresql.Driver  
